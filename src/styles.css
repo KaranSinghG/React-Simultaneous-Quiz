@@ -2,3 +2,16 @@
   font-family: sans-serif;
   text-align: center;
 }
+.Grid {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: salmon;
+  column-gap: 20%;
+}
+
+grid_item {
+  display: flex;
+  justify-content: center;
+}
