@@ -37,6 +37,8 @@ function Quiz({ showQuiz, setShowQuiz, score, setScore }) {
   }
 
   function resetHandler() {
+    setOperation([]);
+    setAnswerList([]);
     setQuestions({ ques: [], ans: [] });
     setShowQuiz(0);
   }
